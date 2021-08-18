@@ -1,3 +1,7 @@
 <?php $this->layout('layout', ['title' => 'About']) ?>
 
-<p>Hello, <?= $this->e($name)?></p>
+<?php
+echo flash()->display();
+?>
+<p>О нас <?= $this->e($name)?></p>
+
